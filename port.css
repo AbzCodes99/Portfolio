@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: floralwhite;
+    background-color: #0E2431;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-header{
+    display: flex;
+    list-style: none;
+    float: right;
+    margin-right: 30px;
+}
+
+.nav-items{
+    padding: 25px;
+}
+
+.nav-border{
+    color: black;
+}
+
+.home-container {
+    display:flex ;
+    text-align: center;
+    justify-content: space-between; 
+    margin-left: 100px;
+    margin-right: 0px; 
+}
+
+
+.home-h1 {
+    font-size: 75px;
+    margin-left: 100px;
+}
+
+
+.home-span {
+    color: blue;
+}
+
+.home-btn {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.home-btn:hover {
+    background-color: blue;
+}
+
+
+.home-img {
+    width: 20%; /* Make the image smaller for better alignment */
+    height: auto;
+}
+
+.github-btn {
+    display: grid;
+    place-items: center;
+    background: #0E2431;
+    padding: 1.4em;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0);
+    cursor: pointer;
+    transition: transform 0.5s;
+    margin-left: 100px;
+  }
+  
+  .github-btn:hover {
+    border: 1px solid rgba(0,0,0,0.1);
+    transform: translateY(0.5em);
+  }
+  
+  .github-btn svg {
+    transition: transform 0.5s;
+  }
+  
+  .github-btn:hover svg {
+    transform: scale(0.9);
+    fill: #333333;
+  }
+
+  .h1-about{
+    color: blue;
+    text-align: center;
+    margin-top: 100px;
+  }
