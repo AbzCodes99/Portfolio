@@ -25,6 +25,47 @@ button {
     color: black;
 }
 
+
+.nav-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0E2431;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.nav-items a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.nav-items a:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+section {
+    padding-top: 70px; 
+    margin-top: -70px;
+}
+
+
 .home-container {
     display:flex ;
     text-align: center;
@@ -35,6 +76,7 @@ button {
 
 
 .home-h1 {
+    padding-top: 80px; /* Add padding to ensure content is visible */
     font-size: 75px;
     margin-left: 100px;
 }
@@ -96,5 +138,61 @@ button {
   .h1-about{
     color: blue;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
+  }
+ .about-container{
+    display: flex;
+    
+  }
+
+  .about-img{
+    margin-left: 100px;
+    border-radius: 5px;
+  }
+
+  .about-main{
+    margin: 10px;
+    margin-top: 75px;
+    margin-left: 300px;
+  }
+
+  .h1-skills{
+    color: blue;
+    text-align: center;
+    margin-top: 250px;
+  }
+
+  .skills-container{
+    display: flex;
+ 
+  }
+
+  .skills-img{
+    margin: 10px;
+    margin-top: 75px;
+    margin-left: 750px;
+    width: 25%;
+    height: auto;
+  }
+
+  .skills-main{
+    margin-top: 75px;
+    margin-left: 100px;
+  }
+
+  .skills-li{
+    font-size: 30px;
+    padding: 15px;
+  }
+
+  .h1-projects{
+    color: blue;
+    text-align: center;
+    margin-top: 200px;
+  }
+
+  .h1-contact{
+    color: blue;
+    text-align: center;
+    margin-top: 200px;
   }
