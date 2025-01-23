@@ -190,9 +190,47 @@ section {
     text-align: center;
     margin-top: 200px;
   }
+    
+  .projects-container{
+    display: flex;
+  }
+
+  .projects-img{
+    margin: 100px;
+    margin-left: 500px;
+    width: 20%;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .projects-main{
+    margin: 100px;
+    margin-left: 100px;
+  }
+
+.projects-p{
+  font-size: 22px;
+}
+
+.projects-img-1{
+  margin: 100px;
+  width: 20%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.projects-main-1{
+  margin: 100px;
+  margin-left: 500px;
+}
+
 
   .h1-contact{
     color: blue;
     text-align: center;
     margin-top: 200px;
+  }
+
+  .contact-container{
+    margin: 100px;
   }
